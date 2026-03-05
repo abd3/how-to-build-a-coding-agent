@@ -72,5 +72,9 @@
   # https://devenv.sh/git-hooks/
   # git-hooks.hooks.shellcheck.enable = true;
 
+  # Disable caching
+  cachix.enable = false;
+
+
   # See full reference at https://devenv.sh/reference/options/
 }
